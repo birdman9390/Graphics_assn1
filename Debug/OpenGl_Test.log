@@ -23,11 +23,11 @@ c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(99): war
 c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(100): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(121): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
 c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(122): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(185): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(189): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(189): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(224): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(228): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(232): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(236): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(182): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(186): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(186): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(219): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(223): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(227): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(231): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   OpenGl_Test.vcxproj -> C:\Users\이재엽\source\repos\OpenGl_Test\Debug\OpenGl_Test.exe

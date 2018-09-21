@@ -17,7 +17,7 @@ float distance(float x1, float y1, float x2, float y2);
 class Map
 {
 private:
-	static int map[100][100];//0 : 빈곳, 1: 벽, 2: User, 3: Enemy, 4: Item
+	static int map[50][50];//0 : 빈곳, 1: 벽, 2: User, 3: Enemy, 4: Item
 							 //여기서 게임을 진행하자!
 public:
 	Map();
@@ -99,6 +99,7 @@ public:
 	static Bullet* get_bullet(int i);
 	static vector<Bullet*> get_bullet_list();
 	static int get_bullet_num();
+	static void remove_bullet(int i);
 	float get_pos_x();
 	float get_pos_y();
 };

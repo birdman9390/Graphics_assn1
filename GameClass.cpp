@@ -217,9 +217,6 @@ Bullet::Bullet() {
 	direction = User::get_direction();
 	velocity = BULLET_VELOCITY;
 	bullet_list.push_back(this);
-	cout << "BULLET AT : "<< pos_x<<","<<pos_y << '\n';
-	cout << "bullet_list size: " << bullet_list.size() << '\n';
-	cout << "BULLET_LIST_CHECK :" << bullet_list[0]->get_pos_x() << ' , ' << bullet_list[0]->get_pos_y() << '\n';
 }
 Bullet::Bullet(float x, float y, int dir) {
 	pos_x = x;
@@ -245,7 +242,7 @@ int Bullet::move()//enemy¶û ºÎµúÈ÷¸é enemyÁ×ÀÌ°í ÃÑ¾Ë »ç¶óÁü, º®ÀÌ¶û ºÎµúÇôµµ »ç
 		pos_x -= BULLET_VELOCITY;
 		break;
 	}
-	cout << "Current position : " << pos_x << "," << pos_y << '\n';
+	cout << "BULLET POSITION: " << pos_x << " , " << pos_y << '\n';
 	return check_state();
 }
 int Bullet::check_state()
@@ -260,6 +257,7 @@ int Bullet::check_state()
 		{
 			if (distance(pos_x, pos_y, Enemy::get_enemy(i)->get_pos_x(), Enemy::get_enemy(i)->get_pos_y()) <= DEATH_DISTANCE)
 			{
+//				cout << "DEATH_DISTANCE : " << distance(pos_x, pos_y, Enemy::get_enemy(i)->get_pos_x(), Enemy::get_enemy(i)->get_pos_y()) << '\n';
 				return i;
 			}
 		}
@@ -287,12 +285,16 @@ float Bullet::get_pos_y()
 	return pos_y;
 }
 
+void Bullet::remove_bullet(int i)
+{
+	bullet_list.erase(bullet_list.begin() + i);
+}
 
 
 int User::direction;
 float User::pos_x;
 float User::pos_y;
 int User::item_num;
-int Map::map[100][100];
+int Map::map[50][50];
 vector<Enemy*> Enemy::enemy_list;
 vector<Bullet*> Bullet::bullet_list;
