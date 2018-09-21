@@ -83,22 +83,22 @@ bool User::isvalidDirection(int dir)
 	{
 	case 0:
 		//ºÏ
-		if (Map::getmap(int(pos_x - 0.5), int(pos_y + 0.5)) == 1 || Map::getmap(int(pos_x + 0.5), int(pos_y + 0.5)) == 1)
+		if (Map::getmap(int(pos_x - 0.5), int(pos_y + 0.5)) == 1 || Map::getmap(int(pos_x + 0.49), int(pos_y + 0.5)) == 1)
 			return false;
 		return true;
 	case 1:
 		//µ¿
-		if (Map::getmap(int(pos_x + 0.5), int(pos_y + 0.5)) == 1 || Map::getmap(int(pos_x + 0.5), int(pos_y - 0.5)) == 1)
+		if (Map::getmap(int(pos_x + 0.5), int(pos_y + 0.499)) == 1 || Map::getmap(int(pos_x + 0.5), int(pos_y - 0.5)) == 1)
 			return false;
 		return true;
 	case 2:
 		//³²
-		if (Map::getmap(int(pos_x - 0.5), int(pos_y - 0.5)) == 1 || Map::getmap(int(pos_x + 0.5), int(pos_y - 0.5)) == 1)
+		if (Map::getmap(int(pos_x - 0.5), int(pos_y - 0.501)) == 1 || Map::getmap(int(pos_x + 0.499), int(pos_y - 0.501)) == 1)
 			return false;
 		return true;
 	case 3:
 		//¼­
-		if (Map::getmap(int(pos_x - 0.5), int(pos_y + 0.5)) == 1 || Map::getmap(int(pos_x - 0.5), int(pos_y - 0.5)) == 1)
+		if (Map::getmap(int(pos_x - 0.501), int(pos_y + 0.499)) == 1 || Map::getmap(int(pos_x - 0.501), int(pos_y - 0.5)) == 1)
 			return false;
 		return true;
 	}
@@ -111,11 +111,12 @@ bool User::isvalidDirection(int dir)
 
 
 Enemy::Enemy() {
-	is_aggro = 0;
+	direction = 2;
 	enemy_list.push_back(this);
 }
 Enemy::Enemy(float x, float y)
 {
+	direction = 2;
 	pos_x = x;
 	pos_y = y;
 	enemy_list.push_back(this);
@@ -171,27 +172,92 @@ bool Enemy::isvalidDirection(int dir)
 	{
 	case 0:
 		//ºÏ
-		if (Map::getmap(int(pos_x - 0.5), int(pos_y + 0.5)) == 1 || Map::getmap(int(pos_x + 0.5), int(pos_y + 0.5)) == 1)
+		if (Map::getmap(int(pos_x - 0.5), int(pos_y + 0.5)) == 1 || Map::getmap(int(pos_x + 0.49), int(pos_y + 0.5)) == 1)
 			return false;
 		return true;
 	case 1:
 		//µ¿
-		if (Map::getmap(int(pos_x + 0.5), int(pos_y + 0.5)) == 1 || Map::getmap(int(pos_x + 0.5), int(pos_y - 0.5)) == 1)
+		if (Map::getmap(int(pos_x + 0.5), int(pos_y + 0.499)) == 1 || Map::getmap(int(pos_x + 0.5), int(pos_y - 0.5)) == 1)
 			return false;
 		return true;
 	case 2:
 		//³²
-		if (Map::getmap(int(pos_x - 0.5), int(pos_y - 0.5)) == 1 || Map::getmap(int(pos_x + 0.5), int(pos_y - 0.5)) == 1)
+		if (Map::getmap(int(pos_x - 0.5), int(pos_y - 0.501)) == 1 || Map::getmap(int(pos_x + 0.499), int(pos_y - 0.501)) == 1)
 			return false;
 		return true;
 	case 3:
 		//¼­
-		if (Map::getmap(int(pos_x - 0.5), int(pos_y + 0.5)) == 1 || Map::getmap(int(pos_x - 0.5), int(pos_y - 0.5)) == 1)
+		if (Map::getmap(int(pos_x - 0.501), int(pos_y + 0.499)) == 1 || Map::getmap(int(pos_x - 0.501), int(pos_y - 0.5)) == 1)
 			return false;
+		return true;
+	case 4:
 		return true;
 	}
 }
 //vector<Enemy*> Enemy::enemy_list = vector<Enemy*>();
+
+bool Enemy::istickzero()
+{
+	return tick == 0;
+}
+void Enemy::increasetick()
+{
+	tick = (tick + 1) % 10;
+}
+
+void Enemy::moveAll()
+{
+	tick = (tick + 1) % 10;
+	if (tick == 0)
+	{
+		for (int i = 0; i < get_enemy_num(); i++)
+		{
+			enemy_list[i]->setdirection(rand() % 5);
+		}
+	}
+	for (int i = 0; i < get_enemy_num(); i++)
+	{
+		switch (enemy_list[i]->getdirection())
+		{
+		case 0://ºÏ
+			if(enemy_list[i]->isvalidDirection(0))
+				enemy_list[i]->add_to_y(0.05); break;
+			break;
+		case 1://µ¿
+			if (enemy_list[i]->isvalidDirection(1))
+				enemy_list[i]->add_to_x(0.05); break;
+			break;
+		case 2://³²
+			if (enemy_list[i]->isvalidDirection(2))
+				enemy_list[i]->add_to_y(-0.05); break;
+			break;
+		case 3://¼­
+			if (enemy_list[i]->isvalidDirection(3))
+				enemy_list[i]->add_to_x(-0.05); break;
+			break;
+		case 4:
+			break;
+		}
+	}
+
+}
+void Enemy::add_to_x(float i)
+{
+	pos_x += i;
+}
+void Enemy::add_to_y(float i)
+{
+	pos_y += i;
+}
+void Enemy::setdirection(int dir)
+{
+	direction = dir;
+}
+int Enemy::getdirection()
+{
+	return direction;
+}
+
 
 
 Bullet::Bullet() {
@@ -296,5 +362,6 @@ float User::pos_x;
 float User::pos_y;
 int User::item_num;
 int Map::map[50][50];
+int Enemy::tick = 0;
 vector<Enemy*> Enemy::enemy_list;
 vector<Bullet*> Bullet::bullet_list;

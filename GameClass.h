@@ -6,11 +6,12 @@
 #include <vector>
 #include<iostream>
 #include<math.h>
-
+#include<stdlib.h>
+#include<time.h>
 #define DEATH_DISTANCE 0.5
 #define AGGRO_DISTANCE 5
 #define BULLET_VELOCITY 0.2
-#define UNIT_SPEED 0.05
+#define UNIT_SPEED 0.5
 using namespace std;
 
 float distance(float x1, float y1, float x2, float y2);
@@ -50,7 +51,7 @@ public:
 	//유저가 아이템을 먹었을때 아이템개수를 증가시키는 함수
 	static void decrease_item_num();
 	//유저가 아이템을 사용했을 때 아이템개수를 감소시키는 함수
-	bool isvalidDirection(int dir);
+	static bool isvalidDirection(int dir);
 	//dir 방향으로 현재 움직일수 있는지 확인해서 움직일수 있으면 true를 return한다
 };
 class Enemy
@@ -59,11 +60,15 @@ private:
 	float pos_x, pos_y;
 	bool is_aggro;//0 : 어그로 안끌림, 1: 어그로 끌림.  default로 어그로 안끌린 상태(0)로 설정되어 있음
 	static vector<Enemy*> enemy_list;
+	static int tick;
+	int direction;
 public:
 	Enemy();
 	Enemy(float x, float y);
 	void move();
 	 //벽으로는 못가게해야함. 아이템은 못먹음. 시간마다 랜덤하게 움직여야함. 기준은 구현자가 알아서 하자!
+
+	static void moveAll();
 	float get_pos_x();
 	float get_pos_y();
 	void set_pos(float x, float y);
@@ -80,6 +85,12 @@ public:
 	//유저와 충돌한 경우 true를 return한다. 거리 기준은 DEATH_DISTANCE보다 가까운 경우를 기준으로 함.
 	bool isvalidDirection(int dir);
 	//dir 방향으로 현재 움직일수 있는지 확인해서 움직일수 있으면 true를 return한다
+	static bool istickzero();
+	static void increasetick();
+	void setdirection(int dir);
+	int getdirection();
+	void add_to_x(float i);
+	void add_to_y(float i);
 };
 //vector<Enemy*> Enemy::enemy_list = vector<Enemy*>();
 
