@@ -1,10 +1,15 @@
 #include <windows.h>
 #include <gl/gl.h>
 #include <gl/glut.h>
-
+#include<iostream>
+#include<fstream>
+#include<string>
+#include<sstream>
+using namespace std;
 
 //map Info.
-#define map_col_size 3
+#define map_col_size 50
+
 #define blank 0
 #define wall 1
 #define player 2
@@ -33,7 +38,7 @@ void reshape(int w, int h)
 	glViewport(0, 0, (GLsizei)w, (GLsizei)h);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	gluOrtho2D(0, 3, 0, 3);
+	gluOrtho2D(0, 50, 0, 50);
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 }
@@ -59,11 +64,11 @@ void draw_triangle(float x, float y, float unit, float R, float G, float B) {
 
 void draw_wall(float x, float y, float unit) {
 	//glClear(GL_COLOR_BUFFER_BIT);
-	draw_square(x, y, unit, 0.55, 0.55, 0.55);
+	draw_square(x, y, unit, 0.7, 0.7, 0.7);
 	//glutSwapBuffers();
 }
 void draw_blank(float x, float y, float unit) {
-	draw_square(x, y, unit, 1, 1, 1);
+	draw_square(x, y, unit, 0,0,0);
 }
 void draw_player(float x, float y, float unit) {
 	//glClear(GL_COLOR_BUFFER_BIT);
@@ -98,8 +103,7 @@ void draw_map(int map[][map_col_size], int row, int col, int unit) {
 			object = map[i][j];
 			switch (object) {
 			case blank:
-				draw_blank(j, (row - 1) - 1, unit); break;
-				break;
+				draw_blank(j, (row - 1) - i, unit); break;
 			case wall:
 				draw_wall(j, (row-1)-i, unit); break;
 			case player:
@@ -118,18 +122,45 @@ void draw_map(int map[][map_col_size], int row, int col, int unit) {
 }
 void display(void)
 {
-	int map[3][3] = {
-		{ 1,2,3 },
-		{ 5,0,4 },
-		{ 1,1,1 }
-	};
+	int map[50][50];
+	
+	string filePath = "game_map.csv";
+	ifstream openFile(filePath.data());
+	if (openFile.is_open()) {
+		string line;
+		int i = 0;
+		int j = 0;
+		while (getline(openFile, line,'\n')) {
+			stringstream lineStream(line);
+			string cell;
+			j = 0;
+			while (getline(lineStream, cell,',')) {
+				map[i][j] = stoi(cell);
+				cout << cell <<" ";
+				j++;
+			}
+			cout << endl;
+			i++;
+		}
+		cout << i <<" "<< j << endl;
+		openFile.close();
+	}
+
+	/*for (int i = 0; i < 50; i++) {
+		for (int j = 0; j < 50; j++) {
+			cout << map[i][j] << " ";
+		}
+		cout << endl;
+	}*/
+
+	
 	glClear(GL_COLOR_BUFFER_BIT);
 	//draw_wall(50, 50, 10);
 	//draw_player(10, 10, 10);
 	//draw_enemy(30, 30, 10);
 	//draw_item01(10, 30, 10);
 	//draw_item02(30, 10, 10);
-	draw_map(map, 3, 3, 1);
+	draw_map(map, 50, 50, 1);
 	glutSwapBuffers();
 }
 void keyboard(unsigned char key, int x, int y)

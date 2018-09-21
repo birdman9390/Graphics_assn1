@@ -233,16 +233,16 @@ int Bullet::move()//enemy¶û ºÎµúÈ÷¸é enemyÁ×ÀÌ°í ÃÑ¾Ë »ç¶óÁü, º®ÀÌ¶û ºÎµúÇôµµ »ç
 	switch (direction)
 	{
 	case 0://ºÏ
-		pos_y += 0.01;
+		pos_y += BULLET_VELOCITY;
 		break;
 	case 1://µ¿
-		pos_x += 0.01;
+		pos_x += BULLET_VELOCITY;
 		break;
 	case 2://³²
-		pos_y -= 0.01;
+		pos_y -= BULLET_VELOCITY;
 		break;
 	case 3://¼­
-		pos_x -= 0.01;
+		pos_x -= BULLET_VELOCITY;
 		break;
 	}
 	cout << "Current position : " << pos_x << "," << pos_y << '\n';

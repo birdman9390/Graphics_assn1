@@ -9,7 +9,8 @@
 
 #define DEATH_DISTANCE 0.5
 #define AGGRO_DISTANCE 5
-#define BULLET_VELOCITY 0.005
+#define BULLET_VELOCITY 0.2
+#define UNIT_SPEED 0.05
 using namespace std;
 
 float distance(float x1, float y1, float x2, float y2);
