@@ -89,9 +89,15 @@ private:
 	float pos_x, pos_y;
 	int direction;
 	int velocity;
+	static vector<Bullet*> bullet_list;
 public:
-	Bullet() {}
+	Bullet();
 	Bullet(float x, float y, int dir);
-	void move();
+	int move();
 	int check_state();
+	static Bullet* get_bullet(int i);
+	static vector<Bullet*> get_bullet_list();
+	static int get_bullet_num();
+	float get_pos_x();
+	float get_pos_y();
 };

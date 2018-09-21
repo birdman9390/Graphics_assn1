@@ -194,16 +194,59 @@ bool Enemy::isvalidDirection(int dir)
 //vector<Enemy*> Enemy::enemy_list = vector<Enemy*>();
 
 
-
+Bullet::Bullet() {
+	switch (User::get_direction())
+	{
+	case 0://ºÏ
+		pos_x = User::get_pos_x();
+		pos_y = User::get_pos_y() + 0.3;
+		break;
+	case 1://µ¿
+		pos_x = User::get_pos_x() + 0.3;
+		pos_y = User::get_pos_y();
+		break;
+	case 2://³²
+		pos_x = User::get_pos_x();
+		pos_y = User::get_pos_y() - 0.3;
+		break;
+	case 3://¼­
+		pos_x = User::get_pos_x() - 0.3;
+		pos_y = User::get_pos_y();
+		break;
+	}
+	direction = User::get_direction();
+	velocity = BULLET_VELOCITY;
+	bullet_list.push_back(this);
+	cout << "BULLET AT : "<< pos_x<<","<<pos_y << '\n';
+	cout << "bullet_list size: " << bullet_list.size() << '\n';
+	cout << "BULLET_LIST_CHECK :" << bullet_list[0]->get_pos_x() << ' , ' << bullet_list[0]->get_pos_y() << '\n';
+}
 Bullet::Bullet(float x, float y, int dir) {
 	pos_x = x;
 	pos_y = y;
 	direction = dir;
 	velocity = BULLET_VELOCITY;
+	bullet_list.push_back(this);
 }
-void Bullet::move()//enemy¶û ºÎµúÈ÷¸é enemyÁ×ÀÌ°í ÃÑ¾Ë »ç¶óÁü, º®ÀÌ¶û ºÎµúÇôµµ »ç¶óÁü
+int Bullet::move()//enemy¶û ºÎµúÈ÷¸é enemyÁ×ÀÌ°í ÃÑ¾Ë »ç¶óÁü, º®ÀÌ¶û ºÎµúÇôµµ »ç¶óÁü
 {
-	///
+	switch (direction)
+	{
+	case 0://ºÏ
+		pos_y += 0.01;
+		break;
+	case 1://µ¿
+		pos_x += 0.01;
+		break;
+	case 2://³²
+		pos_y -= 0.01;
+		break;
+	case 3://¼­
+		pos_x -= 0.01;
+		break;
+	}
+	cout << "Current position : " << pos_x << "," << pos_y << '\n';
+	return check_state();
 }
 int Bullet::check_state()
 {
@@ -223,9 +266,26 @@ int Bullet::check_state()
 		return -1;
 	}
 }//ÀÏ¹ÝÀûÀÎ »óÈ²¿¡¼± -1À» return, º®¿¡ ºÎµúÈú°æ¿ì -2¸¦ return, enemy¶û ºÎµúÈú¶§´Â enemyÀÇ index¸¦ return
-
-
-
+Bullet* Bullet::get_bullet(int i)
+{
+	return bullet_list[i];
+}
+int Bullet::get_bullet_num()
+{
+	return bullet_list.size();
+}
+vector<Bullet*> Bullet::get_bullet_list()
+{
+	return bullet_list;
+}
+float Bullet::get_pos_x()
+{
+	return pos_x;
+}
+float Bullet::get_pos_y()
+{
+	return pos_y;
+}
 
 
 
@@ -235,3 +295,4 @@ float User::pos_y;
 int User::item_num;
 int Map::map[100][100];
 vector<Enemy*> Enemy::enemy_list;
+vector<Bullet*> Bullet::bullet_list;
