@@ -1,2 +1,21 @@
-﻿  OpenGl_Test.cpp
+﻿  GameClass.cpp
+c:\users\이재엽\source\repos\opengl_test\opengl_test\gameclass.h(4): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\gameclass.cpp(202): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  OpenGl_Test.cpp
+c:\users\이재엽\source\repos\opengl_test\opengl_test\gameclass.h(4): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(20): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(21): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(22): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(23): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(51): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(54): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(57): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(60): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(70): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(73): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(76): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(79): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+  코드를 생성하고 있습니다...
+c:\users\이재엽\source\repos\opengl_test\opengl_test\gameclass.cpp(105): warning C4715: 'User::isvalidDirection': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\gameclass.cpp(193): warning C4715: 'Enemy::isvalidDirection': 모든 제어 경로에서 값을 반환하지는 않습니다.
   OpenGl_Test.vcxproj -> C:\Users\이재엽\source\repos\OpenGl_Test\Debug\OpenGl_Test.exe
