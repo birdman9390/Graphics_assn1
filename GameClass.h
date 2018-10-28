@@ -10,7 +10,7 @@
 #include<time.h>
 #define DEATH_DISTANCE 0.5
 #define AGGRO_DISTANCE 5
-#define BULLET_VELOCITY 1
+#define BULLET_VELOCITY 0.5
 #define UNIT_SPEED 0.5
 using namespace std;
 
@@ -36,10 +36,20 @@ private:
 	static int item02_num;
 	static bool isDead;
 	static bool isClear;
+	static int life;
+	static int invincible_count;
+	static int shooting_count;
 public:
 	User();
 	User(float x, float y);
 	void move();
+	static int get_shooting_count();
+	static void decrease_shooting_count();
+	static void set_shooting_count(int count);
+	static int get_life();
+	static void decrease_life();
+	static int get_invincible_count();
+	static void decrease_invincible_count();
 	//private 다루는 함수는 다 알아서 만들기
 	static void set_direction(int dir);
 	static int get_direction();

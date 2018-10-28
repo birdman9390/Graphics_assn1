@@ -28,6 +28,8 @@ User::User() {
 	isDead = false;
 	item01_num = 0;
 	item02_num = 0;
+	life = 3;
+	invincible_count = 0;
 }
 User::User(float x, float y) {
 	pos_x = x;
@@ -36,6 +38,8 @@ User::User(float x, float y) {
 	isDead = false;
 	item01_num = 0;
 	item02_num = 0;
+	life = 3;
+	invincible_count = 0;
 }
 void User::move()
 {
@@ -145,6 +149,50 @@ void User::set_clear() {
 bool User::get_clear() {
 	return isClear;
 }
+
+
+int User::get_life()
+{
+	return life;
+}
+void User::decrease_life()
+{
+	life--;
+	invincible_count = 30;
+}
+int User::get_invincible_count()
+{
+	return invincible_count;
+}
+void User::decrease_invincible_count()
+{
+	invincible_count--;
+}
+
+int User::get_shooting_count()
+{
+	return shooting_count;
+}
+void User::decrease_shooting_count()
+{
+	shooting_count--;
+}
+void User::set_shooting_count(int count)
+{
+	shooting_count = count;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Enemy::Enemy() {
@@ -425,6 +473,9 @@ float User::pos_x;
 float User::pos_y;
 int User::item01_num;
 int User::item02_num;
+int User::life;
+int User::invincible_count;
+int User::shooting_count;
 bool User::isDead;
 bool User::isClear;
 int Map::map[50][50];

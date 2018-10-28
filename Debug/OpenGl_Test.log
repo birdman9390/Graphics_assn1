@@ -8,149 +8,146 @@ c:\users\이재엽\source\repos\opengl_test\opengl_test\mat.h(790): warning C424
 c:\users\이재엽\source\repos\opengl_test\opengl_test\mat.h(793): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\이재엽\source\repos\opengl_test\opengl_test\mat.h(810): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\이재엽\source\repos\opengl_test\opengl_test\gameclass.h(4): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(72): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(422): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(436): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(451): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(452): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(459): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(460): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(474): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(477): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(483): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(486): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(501): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(63): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(64): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(65): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(66): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(67): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(68): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(69): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(70): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(85): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(466): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(467): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(480): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(481): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(496): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(497): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
 c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(504): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(510): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(513): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(527): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(530): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(538): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(541): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(553): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(556): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(562): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(565): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(578): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(581): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(588): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(591): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(604): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(505): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(519): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(522): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(528): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(531): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(546): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(549): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(555): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(558): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(572): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(575): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(583): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(586): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(598): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(601): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
 c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(607): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(614): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(617): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(630): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(633): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(639): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(642): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(655): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(658): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(664): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(667): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(701): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(708): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(709): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(710): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(714): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(715): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(716): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(719): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(720): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(721): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(726): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(727): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(728): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(738): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(740): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(742): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(743): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(745): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(746): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(761): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(766): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(771): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(777): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(782): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(787): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(790): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(793): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(796): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(811): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(816): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(821): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(827): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(832): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(837): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(840): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(843): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(846): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(879): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(881): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(902): warning C4101: 'player_buffer' :참조되지 않은 지역 변수입니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(902): warning C4101: 'item1_buffer' :참조되지 않은 지역 변수입니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(902): warning C4101: 'item2_buffer' :참조되지 않은 지역 변수입니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(902): warning C4101: 'bullet_buffer' :참조되지 않은 지역 변수입니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(902): warning C4101: 'wall_buffer' :참조되지 않은 지역 변수입니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1086): warning C4244: '인수': 'int'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1171): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1172): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1173): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1174): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1209): warning C4244: '인수': 'double'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1210): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1211): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1212): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1213): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1351): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1352): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1355): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1356): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1360): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1361): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1365): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1366): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1372): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1373): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1376): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1377): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1379): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1380): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1382): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1383): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1436): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1437): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1440): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1441): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1445): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1446): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1450): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1451): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1457): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1458): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1461): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1462): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1464): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1465): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(610): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(626): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(636): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(649): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(652): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(659): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(662): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(678): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(687): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(700): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(703): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(709): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(712): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(734): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(739): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(744): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(750): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(755): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(760): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(763): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(784): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(789): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(794): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(800): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(805): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(810): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(813): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(837): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(853): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(855): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(876): warning C4101: 'player_buffer' :참조되지 않은 지역 변수입니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(876): warning C4101: 'item1_buffer' :참조되지 않은 지역 변수입니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(876): warning C4101: 'item2_buffer' :참조되지 않은 지역 변수입니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(876): warning C4101: 'wall_buffer' :참조되지 않은 지역 변수입니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1077): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1078): warning C4244: '인수': 'int'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1081): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1082): warning C4244: '인수': 'int'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1085): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1090): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1106): warning C4244: '인수': 'int'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1185): warning C4244: '인수': 'double'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1192): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1193): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1194): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1195): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1210): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1211): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1214): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1215): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1218): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1219): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1223): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1224): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1261): warning C4244: '인수': 'double'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1261): warning C4244: '인수': 'double'에서 'GLint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1266): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1273): warning C4244: '인수': 'int'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1279): warning C4244: '인수': 'int'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1286): warning C4244: '인수': 'int'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1305): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1306): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1307): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1308): warning C4244: '=': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1463): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1464): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1467): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
 c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1468): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1501): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1502): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1505): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1506): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1510): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1511): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1515): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1516): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1522): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1523): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1526): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1527): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1529): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1530): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1532): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1533): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1547): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1552): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1557): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1562): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1472): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1473): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1477): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1478): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1484): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1485): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1488): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1489): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1492): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1495): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1548): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1549): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1552): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1553): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1557): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1558): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1562): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1563): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1569): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1570): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1573): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1574): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1577): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1580): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1613): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1614): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1617): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1618): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1622): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1623): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1627): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1628): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1634): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1635): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1638): warning C4305: '인수': 'double'에서 'const GLfloat'(으)로 잘립니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1639): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1642): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1645): warning C4244: '인수': 'double'에서 'const GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1660): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1665): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1670): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\이재엽\source\repos\opengl_test\opengl_test\opengl_test.cpp(1675): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   OpenGl_Test.vcxproj -> C:\Users\이재엽\source\repos\OpenGl_Test\Debug\OpenGl_Test.exe
