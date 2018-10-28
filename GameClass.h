@@ -10,7 +10,7 @@
 #include<time.h>
 #define DEATH_DISTANCE 0.5
 #define AGGRO_DISTANCE 5
-#define BULLET_VELOCITY 0.2
+#define BULLET_VELOCITY 1
 #define UNIT_SPEED 0.5
 using namespace std;
 
@@ -32,7 +32,10 @@ private:
 	static int direction;// 0:북, 1: 동, 2: 남, 3: 서 
 						 //User의 direction은 default로 남쪽(2)으로 설정되어 있다.
 	static float pos_x, pos_y;
-	static int item_num;//유저가 먹은 아이템의 개수
+	static int item01_num;//유저가 먹은 아이템01의 개수
+	static int item02_num;
+	static bool isDead;
+	static bool isClear;
 public:
 	User();
 	User(float x, float y);
@@ -43,17 +46,23 @@ public:
 	static float get_pos_x();
 	static float get_pos_y();
 	static void set_pos(float x, float y);
-	static int get_item_num();
+	static int get_item_num(int item_type);
 	//아이템 개수를 return
-	static void set_item_num(int n);
-	//아이템 개수를 n개로 맞춰주는 함수
-	static void increase_item_num();
+	static void increase_item_num(int item_type);
 	//유저가 아이템을 먹었을때 아이템개수를 증가시키는 함수
-	static void decrease_item_num();
+	static void decrease_item_num(int item_type);
 	//유저가 아이템을 사용했을 때 아이템개수를 감소시키는 함수
 	static bool isvalidDirection(int dir);
 	//dir 방향으로 현재 움직일수 있는지 확인해서 움직일수 있으면 true를 return한다
+	static int itemCheck();
+	// 먹은 아이템 종류 반환. 안 먹으면 0 반환.
+	static void set_isDead();
+	static bool get_isDead();
+	static void set_clear();
+	static bool get_clear();
 };
+
+
 class Enemy
 {
 private:
@@ -91,8 +100,9 @@ public:
 	int getdirection();
 	void add_to_x(float i);
 	void add_to_y(float i);
+
+	void setdirectionToUser();//유저와 일정거리 가까워졌을 때 유저를 따라가게 direction설정.
 };
-//vector<Enemy*> Enemy::enemy_list = vector<Enemy*>();
 
 
 class Bullet

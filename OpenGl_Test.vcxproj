@@ -150,11 +150,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Angel.cpp" />
     <ClCompile Include="GameClass.cpp" />
     <ClCompile Include="OpenGl_Test.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Angel.h" />
+    <ClInclude Include="CheckError.h" />
     <ClInclude Include="GameClass.h" />
+    <ClInclude Include="mat.h" />
+    <ClInclude Include="patches.h" />
+    <ClInclude Include="vec.h" />
+    <ClInclude Include="vertices.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
