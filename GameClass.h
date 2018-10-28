@@ -10,7 +10,7 @@
 #include<time.h>
 #define DEATH_DISTANCE 0.5
 #define AGGRO_DISTANCE 5
-#define BULLET_VELOCITY 0.5
+#define BULLET_VELOCITY 0.05
 #define UNIT_SPEED 0.5
 using namespace std;
 

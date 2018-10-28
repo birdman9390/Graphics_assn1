@@ -30,6 +30,7 @@ User::User() {
 	item02_num = 0;
 	life = 3;
 	invincible_count = 0;
+	isClear = false;
 }
 User::User(float x, float y) {
 	pos_x = x;
@@ -40,6 +41,7 @@ User::User(float x, float y) {
 	item02_num = 0;
 	life = 3;
 	invincible_count = 0;
+	isClear = false;
 }
 void User::move()
 {
@@ -122,13 +124,11 @@ bool User::isvalidDirection(int dir)
 
 int User::itemCheck() {
 	if (Map::getmap(int(pos_x), int(pos_y)) == 4) {
-		cout << "item01" << endl;
 		Map::setmap(int(pos_x), int(pos_y), 0);
 		increase_item_num(1);
 		return 1;
 	}
 	else if (Map::getmap(int(pos_x), int(pos_y)) == 5) {
-		cout << "item02" << endl;
 		Map::setmap(int(pos_x), int(pos_y), 0);
 		increase_item_num(2);
 		return 2;
